@@ -1,0 +1,112 @@
+========================
+NEOVIM KEYBINDS CHEATSHEET
+========================
+
+Leader key : SPACE
+
+--------------------------------
+DEPLACEMENT
+--------------------------------
+h      déplacer gauche
+j      déplacer bas
+k      déplacer haut
+l      déplacer droite
+
+w      mot suivant
+b      mot précédent
+e      fin du mot
+
+0      début de ligne
+$      fin de ligne
+
+gg     début fichier
+G      fin fichier
+
+--------------------------------
+MODES
+--------------------------------
+i      mode insertion
+ESC    mode normal
+v      visual mode
+V      visual ligne
+Ctrl+v visual bloc
+
+--------------------------------
+RECHERCHE
+--------------------------------
+/mot      rechercher mot
+n         résultat suivant
+N         résultat précédent
+
+--------------------------------
+EDITION
+--------------------------------
+dd    supprimer ligne
+dw    supprimer mot
+d$    supprimer jusqu'à fin ligne
+
+yy    copier ligne
+yw    copier mot
+
+p     coller après
+P     coller avant
+
+u        undo
+Ctrl+r   redo
+
+--------------------------------
+FENETRES
+--------------------------------
+Ctrl+h   fenêtre gauche
+Ctrl+l   fenêtre droite
+Ctrl+j   fenêtre bas
+Ctrl+k   fenêtre haut
+
+--------------------------------
+FICHIERS
+--------------------------------
+Space w    sauvegarder fichier
+Space q    quitter
+
+--------------------------------
+TELESCOPE (recherche projet)
+--------------------------------
+Space ff   rechercher fichier
+Space fg   rechercher texte
+Space fb   buffers ouverts
+Space fr   références LSP
+Space fd   diagnostics
+
+--------------------------------
+LSP (code intelligence)
+--------------------------------
+gd        aller à la définition
+gD        aller à la déclaration
+gi        implémentation
+gr        références
+K         documentation
+
+Space rn  rename variable
+Space ca  code action
+
+[d        erreur précédente
+]d        erreur suivante
+
+--------------------------------
+AUTOCOMPLETE
+--------------------------------
+Ctrl+Space   ouvrir suggestions
+Tab          suggestion suivante
+Shift+Tab    suggestion précédente
+Enter        valider suggestion
+
+--------------------------------
+FORMATAGE
+--------------------------------
+Space f    formatter fichier (Prettier)
+
+--------------------------------
+EXPLORATEUR FICHIERS
+--------------------------------
+:Ex        ouvrir explorateur
+:Vex       explorateur vertical
